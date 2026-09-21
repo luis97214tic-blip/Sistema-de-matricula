@@ -1,0 +1,15 @@
+#Sistema De estudiante
+print ("Sistema de Matricula para los estudiantes   ")
+codigo_de_estudiante = input("Ingrese su codigo De estudiante   ")
+nombre = input ("Ingrese su nombre  ")
+apellido = input ("Ingrese su apellido  ")
+carrera = input ("Ingrese la carrera que te vas matricular  ")
+Ciclo = float(input("Ciclo en que se desea Matricular "))
+curso_de_matricula_disponible = input ("Curso en que se desea matricular en este ciclo  ")
+
+print (f"Su codigo de estudiante es: {codigo_de_estudiante}")
+print (f"Su nombre es: {nombre} ")
+print (f"Su apellido es: {apellido} ")
+print (f"la carrera que se va matricular es: {carrera}  ")
+print (f"El ciclo que se va matricular es: {Ciclo}  ")
+print (f"El cursos que se va matricular es: {curso_de_matricula_disponible} ")
